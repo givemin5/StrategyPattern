@@ -8,11 +8,12 @@ namespace StrategyPattern
 {
     abstract class Airplane
     {
+        internal IFlyBehavior _fly;
         public abstract void Display();
 
         public void Fly()
         {
-            Console.WriteLine("我會飛");
+            _fly.Fly();
         }
 
         public abstract void Shoot();
