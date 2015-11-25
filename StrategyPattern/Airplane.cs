@@ -9,6 +9,7 @@ namespace StrategyPattern
     abstract class Airplane
     {
         internal IFlyBehavior _fly;
+        internal IShoot _shoot;
         public abstract void Display();
 
         public void Fly()
@@ -16,8 +17,9 @@ namespace StrategyPattern
             _fly.Fly();
         }
 
-        public abstract void Shoot();
-
-
+        public void Shoot()
+        {
+            _shoot.Shoot();
+        }
     }
 }

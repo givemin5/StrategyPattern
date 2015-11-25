@@ -8,14 +8,17 @@ namespace StrategyPattern
 {
     class Fighter : Airplane
     {
+        public Fighter()
+        {
+              _fly = new FlyWithWings();
+            _shoot = new ShootWithGun();
+        }
+
         public override void Display()
         {
             Console.Write("我是戰鬥機");
         }
 
-        public override void Shoot()
-        {
-            Console.Write("我有槍");
-        }
+        
     }
 }

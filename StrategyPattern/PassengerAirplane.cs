@@ -8,14 +8,14 @@ namespace StrategyPattern
 {
     class PassengerAirplane : Airplane
     {
+        public PassengerAirplane()
+        {
+              _fly = new FlyWithWings();
+             _shoot = new NoShoot();
+        }
         public override void Display()
         {
             Console.WriteLine("我是一般飛機");
-        }
-
-        public override void Shoot()
-        {
-            Console.WriteLine("我沒有鎗");
         }
     }
 }

@@ -3,25 +3,25 @@
   <Class Name="StrategyPattern.Airplane">
     <Position X="1.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAEABAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAABAAAAEAAAQAAAAAAAAAAAEABAAAAAAA=</HashCode>
       <FileName>Airplane.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StrategyPattern.Fighter">
     <Position X="0.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Fighter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="StrategyPattern.PassengerAirplane">
     <Position X="3" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PassengerAirplane.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="StrategyPattern.FlyWithWings">
+  <Class Name="StrategyPattern.NoFly">
     <Position X="5.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
